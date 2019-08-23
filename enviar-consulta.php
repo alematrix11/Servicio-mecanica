@@ -12,4 +12,6 @@
 
     header("Location:gracias.php");
     
+    //El archivo enviar-consulta.php fue enviado al repositorio de git
+
 ?>
