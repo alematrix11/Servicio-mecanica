@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Estilos del menu*/
+
+/*Animaciones para el menu*/
+
+ul.opciones-menu{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background: black;
+}
+
+ul li{
+    list-style: none;
+    margin: 0 20px;
+    transition: 0.5s;   
+}
+
+ul li a{
+    display: block;
+    position: relative;
+    text-decoration: none;
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color:#fff;
+    text-transform: uppercase;
+    transform: 0.5s;
+}
+
+ul:hover li a{
+    transform: scale(0.8);
+    opacity: .2;
+    filter: blur(5px);
+}
+
+ul li a:hover{
+    transform: scale(1);
+    opacity: 1;
+    filter: blur(0);
+}
+
+ul li a.servicio:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #5258C4;
+    transition: transform 0.8s;
+    transform-origin: right;
+    transform: scaleX(0);
+    z-index: -1;
+}
+
+ul li a.consulta:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: orange;
+    transition: transform 0.8s;
+    transform-origin: right;
+    transform: scaleX(0);
+    z-index: -1;
+}
+
+ul li a.escribir:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #2962ff;
+    transition: transform 0.8s;
+    transform-origin: right;
+    transform: scaleX(0);
+    z-index: -1;
+}
+
+ul li a:hover:before{
+    transition: transform 0.8s;
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.contenedor{
+    background: url(imagenes/mecanica-frenos.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.contenedorServicio{
+    margin-top: 40px;
+}
+
+/*Estilos del formulario*/
+
+.descripcion-formulario{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.texto-label{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+/*Estilos del menu*/
+
+header {
+  background: rgba(0,0,0,0.9);
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+.wrapper {
+  width: auto;
+  margin: auto;
+  overflow:hidden;
+}
+
+.tamaniotexth2{
+    font-size: 26px;
+}
+
+.transparencia{
+    opacity: 0.88;
+}
+
+.borde-img{
+    border: 4px solid black;
+    margin: 15px 0px;
+   
+}
+
+.imagen-slider{
+    background-size: cover;
+    width: 500px;
+    height: 350px;
+}
+
+.otrosServicios{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.titulo-consulta{
+     margin: 40px 20px;
+}
+
+.boton-consulta{
+    margin: 40px 20px;
+}
+
+form{
+    border-radius: 2%;
+    margin: 40px 0px;
+    background: white;
+}
+
+.texto-carrusel{
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
