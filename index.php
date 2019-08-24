@@ -40,9 +40,7 @@
 
 <body class="black">
     
-    <!--Comentario para realizar pruebas con git-->
-    
-    <!-- **** Landing Page de publicitaria desarrolada por Alejandro Iorlano **** --> 
+    <!-- **** Landing Page de publicitaria desarrollada por Alejandro Iorlano **** -->
     <!-- **** Contacto  ale.iorlano@gmail.com **** -->
     
     
